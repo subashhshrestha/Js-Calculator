@@ -1,0 +1,65 @@
+@font-face {
+    font-family:'Digital-7';
+    src: url('digital-7/digital-7.ttf');
+    }
+
+    .result .display{
+        margin-top: 18px;
+        text-align: right ;
+        height:45px;
+        width:295px;
+        font-weight: bold;
+        font-size: 35px;
+        background-color: rgb(131, 145, 142);
+        border: solid rgb(102, 112, 112);
+        border-radius: 5px;
+        font-family: 'Digital-7';   
+        
+        
+    }
+.cal{
+    height: 480px;
+    /* height:625px; */
+    width:315px; 
+    border: solid;
+    border-radius: 5px;
+}
+.result{
+    background-color: rgb(180, 213, 214);
+    height: 90px;
+    width: 300px;
+    font-family: cursive;
+    font-size: 15px;
+    border: solid;
+    padding: 5px
+    
+}
+
+.cal-body{
+    background-color: rgb(204, 221, 221);
+    width: 300px;
+    height: 360px;
+    /* height: 505px; */
+    border: solid;
+    padding: 5px;
+}
+button{
+    font-size: 20px;
+    margin: 2px;
+    height: 68px;
+    width: 68px;
+
+
+}
+#expand{
+ visibility: hidden; 
+ background-color: antiquewhite;
+ width: 300px;
+ padding: 5px;
+ border: solid;
+}
+#change{
+    height: 40px;
+    width:auto;
+    font-size: 25px;
+}

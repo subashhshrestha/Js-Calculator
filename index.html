@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <span><button value="submit" id="change" onclick="onExpand()">Expand</button></span>
+    <div class="cal">
+    <div class="result">
+        <span><b>Subash Calculator</b></span>
+        <div class="display" id="res"></div>
+    </div>
+    <div class="cal-body">
+        <div class="row">
+            <button type="submit" onclick="openB()">(</button>
+            <button type="submit" onclick="closeB()">)</button>
+            <button type="submit" onclick="backs()">&#x21E6;</button>
+            <button type="submit" onclick="clears()">AC</button>
+        </div>
+         <div class="row">
+            <button type="submit" onclick="seven()">7</button>
+            <button type="submit" onclick="eight()">8</button>
+            <button type="submit" onclick="nine()">9</button>
+            <button type="submit" onclick="divide()">&divide;</button>
+        </div>
+        <div class="row">
+            <button type="submit" onclick="four()">4</button>
+            <button type="submit" onclick="five()">5</button>
+            <button type="submit" onclick="six()">6</button>
+            <button type="submit" onclick="multiply()">&times;</button>
+        </div>
+        <div class="row">
+            <button type="submit" onclick="one()">1</button>
+            <button type="submit" onclick="two()">2</button>
+            <button type="submit" onclick="three()">3</button>
+            <button type="submit" onclick="minus()">-</button>
+         </div>
+         <div class="row">
+            <button type="submit" onclick="dot()">.</button>
+            <button type="submit" onclick="zero()">0</button>
+            <button type="submit" onclick="equal()">=</button>
+            <button type="submit" onclick="sum()">+</button>
+         </div>
+         
+    </div>
+    <div id="expand">
+            <div class="row">
+               <button type="submit" onclick="sin()">sin</button>
+               <button type="submit" onclick="cos()">cos</button>
+               <button type="submit" onclick="tan()">tan</button>
+               <button type="submit" onclick="power()">x<sup>2</sup></button>
+            </div>
+            <div class="row">
+               <button type="submit" onclick="cosec()">cosec</button>
+               <button type="submit" onclick="sec()">sec</button>
+               <button type="submit" onclick="cot()">cot</button>
+               <button type="submit" onclick="mod()">%</button>
+            </div>
+           </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
